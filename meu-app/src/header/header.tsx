@@ -3,12 +3,12 @@ import './header.css';
 import Imagem from '/workspace/EJ/meu-app/src/img/one.png';
 function Header(){
     return(
-        <div class='flex'>
+        <div className='flex'>
             <div>
-                <img src ={Imagem} alt='OnePiece'/>
+                <img className='img' src ={Imagem} alt='OnePiece'/>
             </div>
             <div>
-                <h1>Caveirabook</h1>
+                <h1 className='h1'>Caveirabook</h1>
             </div>
         </div>
     );

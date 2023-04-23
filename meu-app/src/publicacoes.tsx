@@ -6,7 +6,8 @@ import Fino from './fino/fino';
 
 function Publicacoes() {
   return(
-    <div class='background'>
+    <div className='background'>
+      <Header/>
       <Fino/>
       <Subheader/>
       <Fino/>

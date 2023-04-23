@@ -3,14 +3,18 @@ import './header/header';
 import Header from './header/header';
 import Subheader from './subheader/subheader';
 import Fino from './fino/fino';
+import Noticias2 from './noticias2/noticias2';
+
+
 
 function Noticias() {
   return(
-    <div class='background'>
+    <div className='background'>
       <Header/>
       <Fino/>
       <Subheader/>
       <Fino/>
+      <Noticias2/>
     </div>
   );
 }
