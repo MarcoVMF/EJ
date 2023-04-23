@@ -8,3 +8,19 @@
 .p{
     font-size: 22px;
 }
+Link:hover{
+    text-decoration: none;
+}
+
+Link:hover:after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: #000;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+Link:hover:hover:after{
+    width: 100%;
+}

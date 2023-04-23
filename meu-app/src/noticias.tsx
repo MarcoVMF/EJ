@@ -3,9 +3,7 @@ import './header/header';
 import Header from './header/header';
 import Subheader from './subheader/subheader';
 import Fino from './fino/fino';
-import Noticias2 from './noticias2/noticias2';
-
-
+import Noticias2 from './noticias2/noticias2'
 
 function Noticias() {
   return(
@@ -14,6 +12,7 @@ function Noticias() {
       <Fino/>
       <Subheader/>
       <Fino/>
+      <Noticias2/>
       <Noticias2/>
     </div>
   );
