@@ -8,7 +8,7 @@ const Subheader = () => {
     return(
         <div className='subheader'>
             <Link to='/' style={{textDecoration: 'none', color: 'black', fontWeight: 'bolder'}}>
-            <p className='p'>Perfil</p></Link>
+            <p className='p'>Home</p></Link>
             <Link to='/publicacoes' style={{textDecoration: 'none', color: 'black', fontWeight: 'bolder'}}><p className='p'>Publicações</p></Link>
             <Link to='/noticias' style={{textDecoration: 'none', color: 'black', fontWeight: 'bolder'}}><p className='p'>Noticias</p></Link>
         </div>

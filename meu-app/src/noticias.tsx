@@ -12,6 +12,7 @@ function Noticias() {
       <Fino/>
       <Subheader/>
       <Fino/>
+      <h1 style={{textAlign:"center", marginTop:"20px"}}>Noticias</h1>
       <Noticias2/>
       <Noticias2/>
     </div>
