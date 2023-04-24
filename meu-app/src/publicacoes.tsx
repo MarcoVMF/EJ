@@ -18,7 +18,6 @@ function Publicacoes() {
       <Input/>
       <Publicacoes2/>
       <Publicacoes2/>
-      <Publicacoes2/>
     </div>
   );
 }
