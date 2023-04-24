@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react-modal": "^3.16.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
-}
